@@ -1,4 +1,4 @@
-const superagent = require("superagent");
+import superagent from "superagent";
 
 export default function handler(req, res) {
   const number = Number(req.query.number);
